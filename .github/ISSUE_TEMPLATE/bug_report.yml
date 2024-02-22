@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a report to see it being fixed
+description: Create a report
 labels: ["bug"]
 body:
   - type: textarea
@@ -11,6 +11,14 @@ body:
 
   - type: input
     attributes:
+      label: Product
+      description: Name of the product you're running (latest is not a version)
+      placeholder: Module
+    validations:
+      required: true
+
+    - type: input
+    attributes:
       label: Product Version
       description: Version number of the product you're running (latest is not a version)
       placeholder: 1.4.0
@@ -19,7 +27,7 @@ body:
 
   - type: input
     attributes:
-      label: Pterodactyl Panel Version (if applicable)
+      label: WemX Panel Version (if applicable)
       description: Version number of your Panel (latest is not a version)
       placeholder: 1.4.0
     validations:
