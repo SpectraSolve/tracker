@@ -9,7 +9,7 @@ body:
     validations:
       required: true
 
-  - type: input
+    - type: input
     attributes:
       label: Product
       description: Name of the product you're running (latest is not a version)
