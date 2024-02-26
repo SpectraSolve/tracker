@@ -9,7 +9,7 @@ body:
     validations:
       required: true
 
-    - type: input
+  - type: input
     attributes:
       label: Product
       description: Product you're running (latest is not a version)
@@ -17,7 +17,7 @@ body:
     validations:
       required: true
 
-    - type: input
+  - type: input
     attributes:
       label: Product Version
       description: Version number of the product you're running (latest is not a version)
