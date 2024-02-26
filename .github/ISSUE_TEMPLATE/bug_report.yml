@@ -12,8 +12,8 @@ body:
     - type: input
     attributes:
       label: Product
-      description: Name of the product you're running (latest is not a version)
-      placeholder: Module
+      description: Product you're running (latest is not a version)
+      placeholder: 1.4.0
     validations:
       required: true
 
