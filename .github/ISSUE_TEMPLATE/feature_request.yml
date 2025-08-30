@@ -2,6 +2,18 @@ name: Feature request
 description: Suggest a feature we can add
 labels: ["enhancement"]
 body:
+  - type: dropdown
+    id: module
+    attributes:
+      label: For what Module/Service you want to suggest something
+      options:
+        - "GiftCards Module"
+        - "FAQ Module"
+        - "SocialLinks"
+        - "New Module / Unmentioned"
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: Describe the solution you'd like
